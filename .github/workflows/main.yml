@@ -13,3 +13,4 @@ jobs:
         run: echo 'testing printing'
       - name: "welcome action"
         run: ls
+      - uses: actions/checkout@v3
