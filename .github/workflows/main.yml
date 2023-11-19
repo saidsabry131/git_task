@@ -1,6 +1,6 @@
 on:
   push:
-    branches: 
+    branches:
       - master
 
 jobs:
@@ -11,3 +11,5 @@ jobs:
         run: pwd
       - name: "testing printing action"
         run: echo 'testing printing'
+      - name: "welcome action"
+        run: ls
