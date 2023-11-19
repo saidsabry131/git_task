@@ -11,6 +11,6 @@ jobs:
         run: pwd
       - name: "testing printing action"
         run: echo 'testing printing'
+      - uses: actions/checkout@v3
       - name: "welcome action"
         run: ls
-      - uses: actions/checkout@v3
